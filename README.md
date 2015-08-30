@@ -9,6 +9,8 @@ Dependencies are jq.
 
 Output:
 ```
+R:\>grep fighters .\UFC191.1    | head -n 1   | jq -c .[].fighters   | sed 's/^..\|..$//g'   | sed 's/\",\"/ vs /'   | sed 's/-/ /g'
+
 Demetrious Johnson vs John Dodson
 Andrei Arlovski vs Frank Mir
 Anthony Johnson vs Jimi Manuwa
