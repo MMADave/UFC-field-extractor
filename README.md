@@ -1,5 +1,5 @@
-<snippet
-  <content
+<snippet>
+  <content>
 # UFC field extractor
 Dependencies are jq.
 #Usage
@@ -45,6 +45,6 @@ R:\grep -i "pm et" .\UFC191.1
                 <span id="footer-event-time" class="time"9PM/6PM ETPT</span
 ```
 
-</content
-  <tabTrigger</tabTrigger
-</snippet
+</content>
+  <tabTrigger></tabTrigger>
+</snippet>
